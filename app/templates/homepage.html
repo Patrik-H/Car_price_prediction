@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Simple Flask Website</title>
+   </head>
+   <body>
+      <h1> Predict price </h1>
+      <p> Enter values:</p>
+
+      <form method="POST">
+        <input type="number" id="v1" name="v1" value=100> 
+        <label for="Tachometer">Tachometer</label>
+        <br>
+        <input type="number" id="v2" name="v2" value=2010>
+        <label for="ProductionYear">ProductionYear</label>
+        <br>
+        <input type="number" id="v3" name="v3" value=300>
+        <label for="EnginePower">EnginePower</label>
+        <br>
+        <input type="text" id="v4" name="v4" value="Audi">
+        <label for="Make">Make</label>
+        <br>
+        <input type="text" id="v5" name="v5" value="Combi">
+        <label for="Body">Body</label>
+        <br>
+        <input type="text" id="v6" name="v6" value="Diesel">
+        <label for="Fuel">Fuel</label>
+        <br>
+        <input type="text" id="v7" name="v7" value="Manual">
+        <label for="Gearbox">Gearbox</label>
+        <br>
+        </select>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+      <br><h4 align="left"<b>{{pred}}</b></h4>
+      <br>
+   </body>
+</html>
